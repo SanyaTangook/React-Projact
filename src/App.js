@@ -1,12 +1,12 @@
 import React from "react";
 import { Header } from "./func-components";
-import {Contrnt} from "./Contrnt";
-import {Footer} from "./Contrnt";
-
+import {Contrnt , Footer} from "./Contrnt";
+import Calendar from './class-components';
 function App() {
 	return (
 		<>
 			<Header />
+			<center> <Calendar /> </center> 
 			<Contrnt/>	
 			<Footer />
 		</>
