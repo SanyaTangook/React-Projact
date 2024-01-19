@@ -1,10 +1,9 @@
 import React from "react";
-import RefsFunc from './refs-func';
-
+import RefsTable from './refs-array'
 function App() {
 	return (
 		<>
-			<RefsFunc />
+			<RefsTable />
 		</>
 	)
 }
