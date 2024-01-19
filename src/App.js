@@ -1,9 +1,9 @@
 import React from "react";
-import RefsTable from './refs-array'
+import MessageBox from "./state-func";
 function App() {
 	return (
 		<>
-			<RefsTable />
+			<MessageBox/>
 		</>
 	)
 }

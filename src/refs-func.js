@@ -14,6 +14,7 @@ export default function RefsFunc() {
     result.current.innerText = r;
     operator.current.innerText = op;
   };
+
   return (
     <div style={{ textAlign: "center", marginTop: 20, fontSize: 18 }}>
       <span ref={num1}>15</span>&nbsp;
