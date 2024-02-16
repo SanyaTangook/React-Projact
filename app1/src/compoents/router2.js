@@ -11,7 +11,7 @@ export default function Router2() {
           className={({ isActive }) => (isActive ? "active_menu" : "menu")} style={({isActive})=>{
             return {fontWeight: isActive ?'bold' :''};
           }}>Home</NavLink> -&nbsp;
-          <NavLink to='/Products' className={({isActive})=>isActive? 'active_menu':'menu'}>
+          <NavLink to='/products' className={({isActive})=>isActive? 'active_menu':'menu'}>
           Products
           </NavLink> -&nbsp;
           <NavLink to='/member' className={({isActive})=>isActive? 'active_menu':'menu'}>

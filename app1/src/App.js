@@ -1,9 +1,9 @@
 import React from "react";
-import Router2 from './compoents/router2'
+import Router3 from "./compoents/router3";
 
 export default function App() {
   return (
-    <Router2/>
-  );
+    <Router3/>
+  )
 }
 
