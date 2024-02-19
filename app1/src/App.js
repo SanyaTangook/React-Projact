@@ -1,9 +1,10 @@
 import React from "react";
-import Router3 from "./compoents/router3";
+import FromSeaarch from "./compoents/from-seaarch";
+
 
 export default function App() {
   return (
-    <Router3/>
+    <FromSeaarch/>
   )
 }
 
