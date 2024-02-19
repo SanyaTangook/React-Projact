@@ -1,10 +1,9 @@
 import React from "react";
-import FromSeaarch from "./compoents/from-seaarch";
-
+import FormText from "./compoents/form-text";
 
 export default function App() {
   return (
-    <FromSeaarch/>
+    <FormText/>
   )
 }
 
