@@ -1,9 +1,9 @@
 import React from "react";
-import FormText from "./compoents/form-text";
+import FormCheck from "./compoents/form-check";
 
 export default function App() {
   return (
-    <FormText/>
+    <FormCheck />
   )
 }
 
